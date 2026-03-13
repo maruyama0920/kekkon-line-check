@@ -172,7 +172,7 @@ async function handleApproval(userId: string) {
     await transporter.sendMail({
       from: process.env.GMAIL_USER,
       to: toAddresses,
-      subject: "LINE問い合わせ【AGAクリニック比較サイト】aga_line",
+      subject: "LINE問い合わせ【結婚相談所比較サイト】kekkon_line",
       text: formatMailBody(userId),
     });
 

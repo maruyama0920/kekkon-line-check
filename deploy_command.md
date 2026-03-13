@@ -2,6 +2,6 @@
 
 ```bash
 # 方法A: ソースから直接デプロイ（env.yaml使用）
-gcloud config set project aga-line-check
+gcloud config set project kekkon-line
 
-gcloud run deploy aga-line-check --source .  --region=asia-northeast1  --platform=managed  --allow-unauthenticated --env-vars-file env.yaml
+gcloud run deploy kekkon-line-check --source .  --region=asia-northeast1  --platform=managed  --allow-unauthenticated --env-vars-file env.yaml
