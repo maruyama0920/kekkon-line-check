@@ -181,7 +181,7 @@ async function handleApproval(userId: string) {
     // LINEで返信
     await lineClient.pushMessage(userId, {
       type: "text",
-      text: "ありがとうございます。\n専門スタッフよりご連絡させていただきます。\nしばらくお待ちください。",
+      text: "ありがとうございます。\n専門スタッフよりご連絡させていただきます。\nしばらくお待ちください。\nご連絡させていただく番号は0120-537-128です。\nご不在の場合は、折り返しお電話いただけましたら専門スタッフが対応いたします。",
     });
 
     // クリーンアップ
